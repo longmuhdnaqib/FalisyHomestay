@@ -36,7 +36,7 @@
                 <div class="w-12 h-12 rounded-md bg-gradient-to-br from-slate-800 to-slate-700 flex items-center justify-center shadow-soft">
                     <i class="fas fa-home gold text-xl"></i>
                 </div>
-                <div>
+                <div class="logo-text">
                     <h1 class="text-white font-bold">Falisy Homestay</h1>
                     <p class="text-xs text-muted">Tenang, Selesa & Berbaloi</p>
                 </div>
@@ -48,9 +48,6 @@
                 <a href="#pricing" class="hover:underline">Harga</a>
                 <a href="#location" class="hover:underline">Lokasi</a>
                 <a href="#contact" class="hover:underline">Hubungi</a>
-                <a href="https://wa.me/60196579341" target="_blank" class="ml-2 inline-flex items-center gap-2 px-4 py-2 rounded-full whatsapp font-semibold">
-                    <i class="fab fa-whatsapp"></i> Tempah
-                </a>
             </nav>
             <button id="mobileBtn" class="md:hidden p-2 bg-white/5 rounded-md">
                 <i class="fas fa-bars"></i>
@@ -65,12 +62,6 @@
                 <p class="text-sm gold font-semibold">Penginapan Premium • Balok, Kuantan</p>
                 <h2 class="hero-title text-4xl sm:text-5xl font-extrabold mt-4 mb-4">Falisy Homestay — <span class="gold">Tenang, Selesa & Berbaloi</span></h2>
                 <p class="text-slate-200 mb-6">Ruang keluarga luas, bilik berhawa dingin, dapur lengkap dan WiFi laju. Sesuai untuk keluarga & kumpulan yang mahu penginapan selesa dekat pantai.</p>
-                <div class="flex flex-wrap gap-3">
-                    <a href="https://wa.me/60196579341?text=Salam%20saya%20nak%20tempah%20Falisy%20Homestay" target="_blank" class="inline-flex items-center gap-3 px-5 py-3 rounded-full font-semibold btn-cta shadow-soft">
-                        <i class="fab fa-whatsapp"></i> Tempah melalui WhatsApp
-                    </a>
-                    <a href="#gallery" class="inline-flex items-center gap-2 px-4 py-3 rounded-full glass">Lihat Galeri <i class="fas fa-arrow-right"></i></a>
-                </div>
                 <div class="mt-8 grid grid-cols-2 gap-3">
                     <div class="bg-gradient-to-tr from-slate-900 to-slate-800 rounded-lg p-4 glass">
                         <p class="text-xs text-muted">Kapasiti</p>
@@ -191,10 +182,38 @@
         <div class="max-w-4xl mx-auto px-4">
             <div class="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-8 text-center glass shadow-soft">
                 <h3 class="text-2xl font-bold mb-3">Sedia Untuk Tempah?</h3>
-                <p class="text-muted mb-4">Klik WhatsApp untuk berhubung terus dan dapatkan jawapan pantas.</p>
-                <a href="https://wa.me/60196579341?text=Salam%20saya%20nak%20tempah%20Falisy%20Homestay" target="_blank" class="inline-flex items-center gap-3 px-6 py-3 rounded-full whatsapp font-semibold">
-                    <i class="fab fa-whatsapp"></i> WhatsApp Sekarang
-                </a>
+                <p class="text-muted mb-6">Pilih platform kegemaran anda untuk membuat tempahan:</p>
+                
+                <div class="grid md:grid-cols-3 gap-4 max-w-3xl mx-auto">
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/60196579341?text=Salam%20saya%20nak%20tempah%20Falisy%20Homestay" target="_blank" class="flex flex-col items-center gap-3 p-6 rounded-xl bg-gradient-to-br from-green-600 to-green-700 hover:from-green-500 hover:to-green-600 transition-all shadow-lg">
+                        <i class="fab fa-whatsapp text-4xl"></i>
+                        <div>
+                            <p class="font-bold text-lg">WhatsApp</p>
+                            <p class="text-xs opacity-90">Jawapan pantas & fleksibel</p>
+                        </div>
+                    </a>
+
+                    <!-- Booking.com -->
+                    <a href="#" target="_blank" class="flex flex-col items-center gap-3 p-6 rounded-xl bg-gradient-to-br from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 transition-all shadow-lg">
+                        <i class="fas fa-hotel text-4xl"></i>
+                        <div>
+                            <p class="font-bold text-lg">Booking.com</p>
+                            <p class="text-xs opacity-90">Platform antarabangsa</p>
+                        </div>
+                    </a>
+
+                    <!-- Airbnb -->
+                    <a href="#" target="_blank" class="flex flex-col items-center gap-3 p-6 rounded-xl bg-gradient-to-br from-pink-600 to-rose-600 hover:from-pink-500 hover:to-rose-500 transition-all shadow-lg">
+                        <i class="fab fa-airbnb text-4xl"></i>
+                        <div>
+                            <p class="font-bold text-lg">Airbnb</p>
+                            <p class="text-xs opacity-90">Tempahan global</p>
+                        </div>
+                    </a>
+                </div>
+
+                <p class="text-sm text-muted mt-6">💡 Tip: WhatsApp untuk tawaran istimewa & diskaun!</p>
             </div>
         </div>
     </section>
